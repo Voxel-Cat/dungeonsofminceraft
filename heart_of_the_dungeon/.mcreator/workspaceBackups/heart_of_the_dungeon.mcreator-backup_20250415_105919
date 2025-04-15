@@ -1,0 +1,132 @@
+{
+  "mod_elements": [
+    {
+      "name": "TestPropertyValueProvider",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_property_value_provider",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/heartofthedungeon/procedures/TestPropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heartofthedungeon/item/TestItem.java",
+          "src/main/resources/assets/heart_of_the_dungeon/models/item/test.json",
+          "src/main/resources/assets/heart_of_the_dungeon/models/item/test_0.json",
+          "src/main/resources/assets/heart_of_the_dungeon/models/item/test_1.json",
+          "src/main/resources/assets/heart_of_the_dungeon/models/item/test_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Setcustomize1",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setcustomize_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heartofthedungeon/command/Setcustomize1Command.java"
+        ]
+      }
+    },
+    {
+      "name": "Customizecommand",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "customizecommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heartofthedungeon/procedures/CustomizecommandProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Customitemtestgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "customitemtestgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heartofthedungeon/world/inventory/CustomitemtestguiMenu.java",
+          "src/main/java/net/mcreator/heartofthedungeon/client/gui/CustomitemtestguiScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "customize01staff",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.heart_of_the_dungeon.customitemtestgui.label_item_to_edit": "item to edit",
+      "item.heart_of_the_dungeon.test": "Test"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dungeon Loot Items",
+        "children": []
+      },
+      {
+        "name": "Craftable Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "heart_of_the_dungeon",
+    "modName": "heart of the dungeon",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.heartofthedungeon"
+  },
+  "mcreatorVersion": 202500113416
+}
