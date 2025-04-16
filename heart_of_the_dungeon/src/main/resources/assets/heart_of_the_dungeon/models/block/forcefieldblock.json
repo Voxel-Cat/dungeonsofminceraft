@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "heart_of_the_dungeon:block/forcefield_block",
+    "particle": "heart_of_the_dungeon:block/forcefield_block"
+  },
+  "render_type": "translucent"
+}

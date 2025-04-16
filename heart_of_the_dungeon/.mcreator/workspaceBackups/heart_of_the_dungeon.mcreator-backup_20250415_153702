@@ -1,0 +1,83 @@
+{
+  "mod_elements": [
+    {
+      "name": "Forcefieldblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forcefieldblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/heartofthedungeon/block/ForcefieldblockBlock.java",
+          "src/main/resources/data/heart_of_the_dungeon/loot_tables/blocks/forcefieldblock.json",
+          "src/main/resources/assets/heart_of_the_dungeon/models/block/forcefieldblock.json",
+          "src/main/resources/assets/heart_of_the_dungeon/models/item/forcefieldblock.json",
+          "src/main/resources/assets/heart_of_the_dungeon/blockstates/forcefieldblock.json"
+        ]
+      },
+      "path": "~/spell stuff/effect objects"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "customize01staff",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.heart_of_the_dungeon.forcefieldblock": "Forcefieldblock"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dungeon Loot Items",
+        "children": []
+      },
+      {
+        "name": "Craftable Items",
+        "children": []
+      },
+      {
+        "name": "spell stuff",
+        "children": [
+          {
+            "name": "spell procedures",
+            "children": []
+          },
+          {
+            "name": "spell items",
+            "children": []
+          },
+          {
+            "name": "effect objects",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "heart_of_the_dungeon",
+    "modName": "heart of the dungeon",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.heartofthedungeon"
+  },
+  "mcreatorVersion": 202500113416
+}

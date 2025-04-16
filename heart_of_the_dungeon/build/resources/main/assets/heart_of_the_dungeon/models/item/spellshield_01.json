@@ -1,0 +1,7 @@
+{
+  "parent": "heart_of_the_dungeon:custom/magic_ring",
+  "textures": {
+    "0": "heart_of_the_dungeon:block/magic",
+    "particle": "heart_of_the_dungeon:item/magic"
+  }
+}

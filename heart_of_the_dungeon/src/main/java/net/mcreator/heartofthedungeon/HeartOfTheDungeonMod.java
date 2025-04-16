@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.heartofthedungeon.init.HeartOfTheDungeonModTabs;
+import net.mcreator.heartofthedungeon.init.HeartOfTheDungeonModItems;
+import net.mcreator.heartofthedungeon.init.HeartOfTheDungeonModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class HeartOfTheDungeonMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		HeartOfTheDungeonModBlocks.REGISTRY.register(bus);
+
+		HeartOfTheDungeonModItems.REGISTRY.register(bus);
+
+		HeartOfTheDungeonModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,0 +1,46 @@
+{
+  "mod_elements": [],
+  "variable_elements": [
+    {
+      "name": "customize01staff",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dungeon Loot Items",
+        "children": []
+      },
+      {
+        "name": "Craftable Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "heart_of_the_dungeon",
+    "modName": "heart of the dungeon",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.heartofthedungeon"
+  },
+  "mcreatorVersion": 202500113416
+}
